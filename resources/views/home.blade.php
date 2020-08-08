@@ -25,6 +25,18 @@
             <div> <a href="#">www.facebook.com/AAAAAAAHSAN</a> </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="/imgs/1.jpg" class="w-100">
+        </div>
+
+        <div class="col-4">
+            <img src="/imgs/2.jpg" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="/imgs/3.jpg" class="w-100">
+        </div>
+    </div>
 
 
 </div>
