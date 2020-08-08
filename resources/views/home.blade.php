@@ -25,7 +25,7 @@
             <div> <a href="#">www.facebook.com/AAAAAAAHSAN</a> </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row pt-4">
         <div class="col-4">
             <img src="/imgs/1.jpg" class="w-100">
         </div>
