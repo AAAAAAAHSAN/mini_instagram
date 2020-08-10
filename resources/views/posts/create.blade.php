@@ -7,8 +7,9 @@
             <img src="/imgs/a1.jpg" height="90px" class="rounded-circle">
         </div>
         <div class="col-9">
-            <div>
+            <div class="d-flex justify-content-between align-items-baseline">
                 <h1>{{$user->username}}</h1>
+                <a href="#">Add new post</a>
             </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>155</strong> posts</div>
@@ -16,13 +17,12 @@
                 <div class="pr-5"> <strong> 212</strong> followings</div>
             </div>
             <div class="pt-4 font-weight-bold">
-                bangladeshahsan@gmail.com
+                {{$user->profile->title}}
             </div>
             <div>
-                I'm a fresh CSE graduate from the University of Chittagong, Bangladesh. I would like to build up my career
-                as a software engineer.
+                {{$user->profile->description}}
             </div>
-            <div> <a href="#">www.facebook.com/AAAAAAAHSAN</a> </div>
+            <div> <a href="#">{{$user->profile->url}}</a> </div>
         </div>
     </div>
     <div class="row pt-4">
